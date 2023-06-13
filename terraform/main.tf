@@ -7,3 +7,8 @@ resource "aws_s3_bucket" "example" {
     RandomKey = "RandomValue"
   }
 }
+resource "aws_ssm_parameter" "foo" {
+  name  = "foo"
+  type  = "String"
+  value = "bar"
+}
