@@ -10,5 +10,5 @@ resource "aws_s3_bucket" "example" {
 resource "aws_ssm_parameter" "foo" {
   name  = "foo"
   type  = "String"
-  value = "bar"
+  value = "barr"
 }
